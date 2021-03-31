@@ -99,7 +99,7 @@ namespace MyShop.Services
             }
         }
 
-        public List<BasketItemViewModel> GetBasketItem(HttpContextBase httpContext)
+        public List<BasketItemViewModel> GetBasketItems(HttpContextBase httpContext)
         {
             Basket basket = GetBasket(httpContext, false);
 
